@@ -16,11 +16,11 @@
 # work = ("Magic")
 # print(f"My name is {name} I am {age}and my hobby is {work}")
 
-def task4():
-    a = int(input("введіть довжину сторони А: "))
-    b = int(input("Введіть довжину сторони В: "))
-    s = (a*b / 2)
-    print("Площа трикутника = %.2f"% s)
+# def task4():
+#     a = int(input("введіть довжину сторони А: "))
+#     b = int(input("Введіть довжину сторони В: "))
+#     s = (a*b / 2)
+#     print("Площа трикутника = %.2f"% s)
 # task4()
 
 # a  = int(input("Enter a number: "))
@@ -39,18 +39,70 @@ def task4():
 # a = str(int(float((input("Enter a number: ")))))
 # if len(a) == 2:
 #     print(a[0])
-def task12():
-    a = input("Enter a number: ")
-    b = list(a)
-    i  = len(b)
-    while i > 3:
-        i -= 3
-        b.insert(i,",")
-    print('' .join(b))
+# def task12():
+#     a = input("Enter a number: ")
+#     b = list(a)
+#     i  = len(b)
+#     while i > 3:
+#         i -= 3
+#         b.insert(i,",")
+#     print('' .join(b))
 
 
-task12()
+# task12()
 
+# a = int(input("Enter a number: "))
+# b = int(input("Enter a number: "))
+# c = ((a+b)*(a+b))
+# print(c)
+
+
+# a = float(input("Feets: "))
+# b = float(input("Inches: "))
+# c = round((a * 30.48) ++ (b * 2.54))
+#
+# print(c)
+
+# a  = int(input("Input distance in feet: "))
+# b = (a * 12)
+# c = float(a * 0.333333333)
+# d = float(a * 0.000189393939)
+# print(f"The distance in inches is {b} inches. \n The distance in yards is {c} yards. \n The distance in miles is {d} miles."  )
+
+# a = input("Enter a symbol: ")
+# print(ord(a))
+
+# a = int(input("Enter a symbol: "))
+# print(chr(a))
+
+# a = int(input("number1: "))
+# b = int(input("number2: "))
+# print(f"{a} + {b} = {a+b}")
+
+
+# a = float(input("number1: "))
+# print(round(a,3))
+
+# a = (input("number1: "))
+# for i in range(5 - len(a)):
+#    a = '0'+a
+# print(a)
+
+
+# a = input("number1: ")
+# for i in range(7 -len(a)):
+#     a += '*'
+# print(a)
+
+# a = input("number1: ")
+# print(a + "*" * (7- len(a)))
+
+# a = int(input("days: "))
+# b = int(input("hours: "))
+# c = int(input("minutes: "))
+# d = int(input("second: "))
+# e = d + (c * 60)+(b * 3600)+(a*3600*24)
+# print(e)
 
 
 
