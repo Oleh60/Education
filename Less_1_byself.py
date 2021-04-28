@@ -104,7 +104,26 @@
 # e = d + (c * 60)+(b * 3600)+(a*3600*24)
 # print(e)
 
+# a = float(input('Enter the desired future value: '))
+# b = float(input("Enter the annual interest rate: "))
+# c = float(input("Enter the number of years the money will grow: "))
+# d = a/(1+b)*c
+# print(round(d,3))
 
+# a = input('enter number: ')
+# b = input('enter number: ')
+# c = input('enter number: ')
+# print(c,b,a)
+
+# a = int(input('enter number: '))
+# b = int(input('enter number: '))
+# print(a + b,a - b,a * b, a / b, a ** b,sep="&")
+
+# a = int(input('enter number: '))
+# b = int(input('enter number: '))
+# c = b // a
+# d = b - a * c
+# print(f"{c} \n {d}")
 
 
 
