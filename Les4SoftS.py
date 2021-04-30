@@ -64,17 +64,19 @@
 # for i in range(1,11):
 #     if i % 2 == 0:
 #          print(i, "число ділиться на 2")
-#     if i % 3 == 0:
+#     elif i % 3 == 0:
 #         print(i, "число ділиться на 3")
 #     elif i % 2 == 1 and i % 3 == 1:
 #         print(i,"число не ділиться на 2 і 3")
 
-# login = input("enter a login: ")
-# while login == "First":
-#     print("Hello user")
-#     break
-# else:
-#     print("not correct login")
+
+while True:
+    login = input("enter a login: ")
+    if login == "First":
+        print("Hello user")
+        break
+    else:
+        print("not correct login")
 
 
 
