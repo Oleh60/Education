@@ -127,11 +127,45 @@
 
 # login = input("Enter a login: ")
 # password = input("Enter a password: ")
-# if login == "starLink":
-#     elif password  == "12345":
-#         print("You are loged")
+# if login == "starLink" and password  == "12345":
+#     print("You are loged")
 # else:
-#     print("Sorry, check youre login or password")
+#     print("Sorry, check youre login or password"
 
+# a = []
+# for i in range (int(input("enter count"))):
+#     a.append(input("enter a name"))
+# print(a)
+# if a[0][0] > a[1][0]:
+#     print(a[1],a[0])
+# else:
+#     print(a)
+# i = 0
+# while i < 6 :
+#     a = int(input("enter a number"))
+#     if a == 1:
+#         print("one")
+#     elif a == 2:
+#         print("two")
+#     elif a == 3:
+#         print("three")
+#
+#     else:
+#         print("Unknown")
+#     i += 1
 
+# a = []
+# for i in range (2):
+#     a.append(input("enter a letter "))
+# print(a)
+# if a[0][0] < a[1][0]:
+#     print(a[1], "is not less than" ,a[0])
+# else:
+#     print(a)
 
+# km_per_h = int(input("enter km: "))
+# m_per_sec = int(input("enter meters:"))
+# if km_per_h * 1000 / 3600 > m_per_sec:
+#     print(km_per_h)
+# else:
+#     print(m_per_sec)
