@@ -125,7 +125,13 @@
 # d = b - a * c
 # print(f"{c} \n {d}")
 
-
+# login = input("Enter a login: ")
+# password = input("Enter a password: ")
+# if login == "starLink":
+#     elif password  == "12345":
+#         print("You are loged")
+# else:
+#     print("Sorry, check youre login or password")
 
 
 

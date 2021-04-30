@@ -49,6 +49,36 @@
 #     a = b
 #     b = c
 
+# print("enter quntity that the same as first number")
+# user_number = int(input("enter a number: "))
+#
+# a = []
+#
+# for item in range (user_number):
+#     a.append(int(input("enter a next number: ")))
+# print(min(a),max(a))
+
+# w = [int(input("enter a next number: ")) for item in range(int(input("enter a  number: ")))]
+# print(min(w),max(w))
+
+# for i in range(1,11):
+#     if i % 2 == 0:
+#          print(i, "число ділиться на 2")
+#     if i % 3 == 0:
+#         print(i, "число ділиться на 3")
+#     elif i % 2 == 1 and i % 3 == 1:
+#         print(i,"число не ділиться на 2 і 3")
+
+# login = input("enter a login: ")
+# while login == "First":
+#     print("Hello user")
+#     break
+# else:
+#     print("not correct login")
+
+
+
+
 
 
 
