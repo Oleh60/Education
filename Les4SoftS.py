@@ -70,21 +70,75 @@
 #         print(i,"число не ділиться на 2 і 3")
 
 
-while True:
-    login = input("enter a login: ")
-    if login == "First":
-        print("Hello user")
-        break
-    else:
-        print("not correct login")
+# while True:
+#     login = input("enter a login: ")
+#     if login == "First":
+#         print("Hello user")
+#         break
+#     else:
+#         print("not correct login")
+
+# def arifmetic_mean(*args):
+#     return sum(args) /len(args)
+#
+# print(arifmetic_mean(5,4,3))
+
+# def largest_number(a,b):
+#     """a function will retur largest number"""
+#     if a > b:
+#         return a
+#     else:
+#         return b
+# print(largest_number.__doc__)
+
+# def sq_of_rectangle():
+#     a = int(input("enter lengt of side a:"))
+#     b = int(input("enter lengt of side b:"))
+#     print("square of rectangle")
+#     return  a * b
 
 
+# def sq_of_triangle():
+#     a = int(input("enter lengt of side a: "))
+#     b = int(input("enter lengt of side b: "))
+#     c =int(input("enter lengt of side c: "))
+#     p = (a+b+c) / 2
+#     S = (p * (p - a) * (p - b) * (p - c)) ** (1/2)
+#     print("square of triangle")
+#     return S
+#
+# def sq_of_circle():
+#     r =int(input("enter a radius: "))
+#     PI = 3.14
+#     print("square of circle")
+#     return PI*r ** 2
+#
+# while True:
+#     print("Enter 1 for rectangle")
+#     print("Enter 2 for triangle")
+#     print("Enter 3 for circle")
+#     print("Enter 4 for exit")
+#     i = input("\n \t")
+#     if i == "1":
+#         print(sq_of_rectangle())
+#     elif i == "2":
+#         print(sq_of_triangle())
+#     elif i == "3":
+#         print(sq_of_circle())
+#     elif i == "4":
+#         break
+#     else:
+#         print("You inputed incorrect symbol")
+#     input("press Enter to continue")
+
+# def string_len(str):
+#     print(len(str))
+#
+# string_len(input("Enter a random string"))
 
 
-
-
-
-
-
+##################
+#Modules
+##################
 
 

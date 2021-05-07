@@ -169,3 +169,69 @@
 #     print(km_per_h)
 # else:
 #     print(m_per_sec)
+
+# a = ["first":1,2,3, "second",10,20, "third",15,56,70, "fourth", -50]
+
+# my_dict = {}   приклад вирішення задачі з словником з додаванням значень
+# current_str = None
+#
+# for e in a:
+#     if(type(e)) == str):
+#         my_dict[e] = []
+#         current_str = e
+#     else:
+#         my_dict[current_str].append(e)
+#print(my dict)
+
+#
+# my_list = input("Enter the numbers:")
+# b = my_list.split()
+# c = len(b) // 2
+# print(b[c:])
+
+# my_list = input("Enter the numbers:")
+# b = my_list.split()
+# c = len(b) - 2
+# print(b[c:] + b[:c])
+#
+# my_language = input("enter language: ")
+# a = sorted(my_language.split())
+# b = " ".join(a)
+
+
+# my_language1 = input("enter :")
+# a = list(reversed(my_language1.split()))
+# # b = a[::-1]
+# print(a)
+
+# a = input("enter: ")
+# b = a.split()
+# for i in range(len(b)):
+#     if i % 2 == 0:
+#         print(b[i])
+
+# a = input("enter a number: ")
+# b = int(input("enter N:"))
+# a = a.split()
+# for i in a:
+#     if int(i) <= b:
+#         print(i)
+
+# a = input("enter a number: ").split(",")
+# b = 0
+# for i in a:
+#     if int(i) >= 0:
+#         b += 1
+# print(b)
+
+# a = input("enter a number: ").split(",")
+# b = []
+# for i in a:
+#     if int(i) % 2 == 1:
+#         b.append(i)
+# print(",".join(b))
+
+a = (input("enter a number: "))
+for i  in range(1,10):
+    print(f"{i}{a}", end=" ")
+
