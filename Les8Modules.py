@@ -17,7 +17,7 @@ while a != unknown:
 
     elif unknown < a:
         print("Введене число менше за загадане")
-        unknown = int(input("Ведіть число для відгадування: "))
+    unknown = int(input("Ведіть число для відгадування: "))
 
 else:
     print(("Вітаємо ви відгадали число!" "\n" f" Спроб використано: {count}"))
