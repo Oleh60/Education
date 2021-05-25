@@ -142,3 +142,10 @@
 ##################
 
 
+def square_digits(num):
+    a = str(num)
+    b = []
+    for i in a:
+        b.append(str(int(i) ** 2))
+    return int("".join(b))
+print(square_digits(9119))
